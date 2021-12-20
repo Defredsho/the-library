@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #9A031E;
+    align-items: center;
+    padding: 1rem;
+}
+
+.imgLogo {
+    width: 80px;
+}
+
+.ulMenu {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 5px;
+    transition: background-color .2s;
+}
+
+.link:hover, .active {
+    background: #ddd;
+    color: #224;
+    cursor: pointer;
+}

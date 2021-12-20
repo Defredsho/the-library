@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem ;
+    width: 280px;
+    text-align: center;
+    border-radius: 5px;
+    background: #0F4C5C;
+    justify-content: space-between;
+}
+
+.title {
+    color: #fff;
+}
+
+.img {
+    padding: 1rem 0;
+    width: 200px;
+    height: 250px;
+}
+.button {
+    padding: .5rem 1rem;
+    background: #dddddd;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #ccc;
+}
